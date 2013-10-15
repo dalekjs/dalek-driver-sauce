@@ -11,7 +11,7 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-yuidoc": "~0.5.0",
     "grunt-contrib-compress": "~0.5.2",
     "grunt-mocha-test": "~0.7.0",
@@ -20,11 +20,11 @@
     "grunt-documantix": "~0.0.3",
     "grunt-git-contributors": "~0.1.4",
     "grunt-conventional-changelog": "~1.0.0",
-    "grunt-concurrent": "~0.3.1",    
-    "grunt-include-replace": "~1.1.0",
+    "grunt-concurrent": "~0.4.1",    
+    "grunt-include-replace": "~1.1.1",
     "grunt-bump": "~0.0.11",
     "blanket": "~1.1.5",
-    "chai": "~1.8.0",
+    "chai": "~1.8.1",
     "load-grunt-tasks": "~0.1.0",
     "time-grunt": "~0.1.1"    
   },
