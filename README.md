@@ -1,38 +1,33 @@
-dalek-driver-native
+dalek-driver-sauce
 ===================
 
-> DalekJS driver for native JavaScript webdriver communication
+> DalekJS driver bindings for [Sauce Labs](https://saucelabs.com) integration
 
-[![Build Status](https://travis-ci.org/dalekjs/dalek-driver-native.png)](https://travis-ci.org/dalekjs/dalek-driver-native)
-[![Build Status](https://drone.io/github.com/dalekjs/dalek-driver-native/status.png)](https://drone.io/github.com/dalekjs/dalek-driver-native/latest)
-[![Dependency Status](https://david-dm.org/dalekjs/dalek-dalek-driver-native.png)](https://david-dm.org/dalekjs/dalek-driver-native)
-[![devDependency Status](https://david-dm.org/dalekjs/dalek-driver-native/dev-status.png)](https://david-dm.org/dalekjs/dalek-driver-native#info=devDependencies)
-[![NPM version](https://badge.fury.io/js/dalek-driver-native.png)](http://badge.fury.io/js/dalek-driver-native)
-[![Coverage](http://dalekjs.com/package/dalek-driver-native/master/coverage/coverage.png)](http://dalekjs.com/package/dalek-driver-native/master/coverage/index.html)
+[![Build Status](https://travis-ci.org/dalekjs/dalek-driver-sauce.png)](https://travis-ci.org/dalekjs/dalek-driver-sauce)
+[![Build Status](https://drone.io/github.com/dalekjs/dalek-driver-sauce/status.png)](https://drone.io/github.com/dalekjs/dalek-driver-sauce/latest)
+[![Dependency Status](https://david-dm.org/dalekjs/dalek-dalek-driver-sauce.png)](https://david-dm.org/dalekjs/dalek-driver-sauce)
+[![devDependency Status](https://david-dm.org/dalekjs/dalek-driver-sauce/dev-status.png)](https://david-dm.org/dalekjs/dalek-driver-sauce#info=devDependencies)
+[![NPM version](https://badge.fury.io/js/dalek-driver-sauce.png)](http://badge.fury.io/js/dalek-driver-sauce)
+[![Coverage](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/coverage.png)](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/index.html)
 [![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
 
-[![NPM](https://nodei.co/npm/dalek-driver-native.png)](https://nodei.co/npm/dalek-driver-native/)
-[![NPM](https://nodei.co/npm-dl/dalek-driver-native.png)](https://nodei.co/npm/dalek-driver-native/)
+[![NPM](https://nodei.co/npm/dalek-driver-sauce.png)](https://nodei.co/npm/dalek-driver-sauce/)
+[![NPM](https://nodei.co/npm-dl/dalek-driver-sauce.png)](https://nodei.co/npm/dalek-driver-sauce/)
 
 ## Ressources
 
-[API Docs](http://dalekjs.com/package/dalek-driver-native/master/api/index.html) -
-[Trello](https://trello.com/b/896PxIhS/dalek-driver-native) -
-[Code coverage](http://dalekjs.com/package/dalek-driver-native/master/coverage/index.html) -
-[Code complexity](http://dalekjs.com/package/dalek-driver-native/master/complexity/index.html) -
-[Contributing](https://github.com/dalekjs/dalek-driver-native/blob/master/CONTRIBUTING.md) -
+[API Docs](http://dalekjs.com/package/dalek-driver-sauce/master/api/index.html) -
+[Trello](https://trello.com/b/896PxIhS/dalek-driver-sauce) -
+[Code coverage](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/index.html) -
+[Code complexity](http://dalekjs.com/package/dalek-driver-sauce/master/complexity/index.html) -
+[Contributing](https://github.com/dalekjs/dalek-driver-sauce/blob/master/CONTRIBUTING.md) -
 [User Docs](http://dalekjs.com/docs/drivernative.html) -
 [Homepage](http://dalekjs.com) -
 [Twitter](http://twitter.com/dalekjs)
 
 ## Docs
 
-Daleks Native driver for third party driver communication. Defines a set of javascript interfaces,
-every third party needs to implement in order to be Dalek compliant.
-Details will follow soon, in the meantime, please check the [API Docs](http://dalekjs.com/package/dalek-driver-native/master/api/index.html).
-
-It comes bundled with an Webdriver compliant adapter, please check that one out, if you wan't to see, how drivers
-can be implemented.
+Connect & run tests with [Sauce Labs](https://saucelabs.com)
 
 ## Help Is Just A Click Away
 
@@ -57,7 +52,7 @@ how to override that feature, browser specific problems and so on.
 
 Questions on StackOverflow often turn in to blog posts or issues.
 
-### [Github Issues](//github.com/dalekjs/dalek-driver-native/issues)
+### [Github Issues](//github.com/dalekjs/dalek-driver-sauce/issues)
 
 Report issues with DalekJS, submit pull requests to fix problems, or to
 create summarized and documented feature requests (preferably with pull
@@ -73,5 +68,5 @@ Google Groups mailing list.
 
 Copyright (c) 2013 Sebastian Golasch
 
-Distributed under [MIT license](https://github.com/dalekjs/dalek-driver-native/blob/master/LICENSE-MIT)
+Distributed under [MIT license](https://github.com/dalekjs/dalek-driver-sauce/blob/master/LICENSE-MIT)
 
