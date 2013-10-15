@@ -5,7 +5,7 @@ dalek-driver-sauce
 
 [![Build Status](https://travis-ci.org/dalekjs/dalek-driver-sauce.png)](https://travis-ci.org/dalekjs/dalek-driver-sauce)
 [![Build Status](https://drone.io/github.com/dalekjs/dalek-driver-sauce/status.png)](https://drone.io/github.com/dalekjs/dalek-driver-sauce/latest)
-[![Dependency Status](https://david-dm.org/dalekjs/dalek-dalek-driver-sauce.png)](https://david-dm.org/dalekjs/dalek-driver-sauce)
+[![Dependency Status](https://david-dm.org/dalekjs/dalek-driver-sauce.png)](https://david-dm.org/dalekjs/dalek-driver-sauce)
 [![devDependency Status](https://david-dm.org/dalekjs/dalek-driver-sauce/dev-status.png)](https://david-dm.org/dalekjs/dalek-driver-sauce#info=devDependencies)
 [![NPM version](https://badge.fury.io/js/dalek-driver-sauce.png)](http://badge.fury.io/js/dalek-driver-sauce)
 [![Coverage](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/coverage.png)](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/index.html)
