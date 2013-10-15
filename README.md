@@ -21,7 +21,7 @@ dalek-driver-sauce
 [Code coverage](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/index.html) -
 [Code complexity](http://dalekjs.com/package/dalek-driver-sauce/master/complexity/index.html) -
 [Contributing](https://github.com/dalekjs/dalek-driver-sauce/blob/master/CONTRIBUTING.md) -
-[User Docs](http://dalekjs.com/docs/drivernative.html) -
+[User Docs](http://dalekjs.com/docs/driversauce.html) -
 [Homepage](http://dalekjs.com) -
 [Twitter](http://twitter.com/dalekjs)
 
