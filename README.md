@@ -21,13 +21,90 @@ dalek-driver-sauce
 [Code coverage](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/index.html) -
 [Code complexity](http://dalekjs.com/package/dalek-driver-sauce/master/complexity/index.html) -
 [Contributing](https://github.com/dalekjs/dalek-driver-sauce/blob/master/CONTRIBUTING.md) -
-[User Docs](http://dalekjs.com/docs/driversauce.html) -
+[User Docs](http://dalekjs.com/docs/sauce.html) -
 [Homepage](http://dalekjs.com) -
 [Twitter](http://twitter.com/dalekjs)
 
 ## Docs
 
-Connect & run tests with [Sauce Labs](https://saucelabs.com)
+This module is a driver plugin for [DalekJS](//github.com/dalekjs/dalek).
+It connects Daleks testsuite with the remote testing environment of [Sauce Labs](https://saucelabs.com).
+
+The driver can be installed with the following command:
+
+```
+$ npm install dalek-driver-sauce --save-dev
+```
+
+You can use the driver by adding a config option to the your [Dalekfile](/pages/config.html)
+
+```js
+"driver": ["sauce"]
+```
+
+Or you can tell Dalek that it should run your tests via sauces service via the command line:
+
+```
+$ dalek mytest.js -d sauce
+```
+
+In order to run your tests within the Sauce Labs infrastructure, you must add your sauce username & key 
+to your dalek configuration. Those two parameters must be set in order to get this driver up & running.
+You can specifiy them within your [Dalekfile](/pages/config.html) like so:
+
+```js
+"driver.sauce": {
+  "user": "dalekjs",
+  "key": "aaaaaa-1234-567a-1abc-1br6d9f68689"
+}
+```
+
+It is also possible to specify a set of other extra saucy parameters like `name` & `tags`:
+
+```js
+"driver.sauce": {
+  "user": "dalekjs",
+  "key": "aaaaaa-1234-567a-1abc-1br6d9f68689",
+  "name": "Guineapig",
+  "tags": ["dalek", "testproject"]
+}
+```
+
+If you would like to have a more control over the browser/OS combinations that are available, you are able 
+to configure you custom combinations:
+
+```js
+"browsers": [{
+  "chrome": {
+    "platform": "OS X 10.6",
+    "actAs": "chrome",
+    "version": 27
+  },
+  "chromeWin": {
+    "platform": "Windows 7",
+    "actAs": "chrome",
+    "version": 27
+  },
+  "chromeLinux": {
+    "platform": "Linux",
+    "actAs": "chrome",
+    "version": 26
+  }
+```
+
+You can then call your custom browsers like so:
+
+```
+$ dalek mytest.js -d sauce -b chrome,chromeWin,chromeLinux
+```
+
+or you can define them in your Dalekfile:
+
+```js
+"browser": ["chrome", "chromeWin", "chromeLinux"]
+```
+
+A list of all available browser/OS combinations, can be found [here](https://saucelabs.com/docs/platforms).
 
 ## Help Is Just A Click Away
 

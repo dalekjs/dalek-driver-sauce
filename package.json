@@ -5,7 +5,7 @@
   "main": "./index.js",
   "homepage": "http://dalekjs.com",
   "dependencies": {
-    "dalek-internal-webdriver": "~0.0.3",
+    "dalek-internal-webdriver": "~0.0.4",
     "q": "~0.9.7"    
   },
   "devDependencies": {
