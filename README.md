@@ -36,7 +36,7 @@ The driver can be installed with the following command:
 $ npm install dalek-driver-sauce --save-dev
 ```
 
-You can use the driver by adding a config option to the your [Dalekfile](/pages/config.html)
+You can use the driver by adding a config option to the your [Dalekfile](http://dalekjs.com/docs/config.html)
 
 ```js
 "driver": ["sauce"]
@@ -50,7 +50,7 @@ $ dalek mytest.js -d sauce
 
 In order to run your tests within the Sauce Labs infrastructure, you must add your sauce username & key 
 to your dalek configuration. Those two parameters must be set in order to get this driver up & running.
-You can specifiy them within your [Dalekfile](/pages/config.html) like so:
+You can specifiy them within your [Dalekfile](http://dalekjs.com/docs/config.html) like so:
 
 ```js
 "driver.sauce": {
