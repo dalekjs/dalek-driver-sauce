@@ -72,7 +72,7 @@ module.exports = function (grunt) {
       options: {
         folders: [
           'coverage',
-          'report', 
+          'report',
           'report/complexity',
           'report/complexity/files',
           'report/complexity/files/test',
