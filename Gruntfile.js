@@ -119,7 +119,7 @@ module.exports = function (grunt) {
           },
         },
         src: 'report/docs/*.html',
-        dest: '.'
+        dest: './'
       }
     },
 
@@ -136,7 +136,6 @@ module.exports = function (grunt) {
         files: []
       }
     }
-
 
   });
 
