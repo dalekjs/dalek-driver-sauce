@@ -10,6 +10,9 @@ dalek-driver-sauce
 [![NPM version](https://badge.fury.io/js/dalek-driver-sauce.png)](http://badge.fury.io/js/dalek-driver-sauce)
 [![Coverage](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/coverage.png)](http://dalekjs.com/package/dalek-driver-sauce/master/coverage/index.html)
 [![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
+[![Stories in Ready](https://badge.waffle.io/dalekjs/dalek-driver-sauce.png?label=ready)](https://waffle.io/dalekjs/dalek-driver-sauce)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dalekjs/dalek-driver-sauce/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 [![NPM](https://nodei.co/npm/dalek-driver-sauce.png)](https://nodei.co/npm/dalek-driver-sauce/)
 [![NPM](https://nodei.co/npm-dl/dalek-driver-sauce.png)](https://nodei.co/npm/dalek-driver-sauce/)
@@ -146,8 +149,3 @@ Google Groups mailing list.
 Copyright (c) 2013 Sebastian Golasch
 
 Distributed under [MIT license](https://github.com/dalekjs/dalek-driver-sauce/blob/master/LICENSE-MIT)
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dalekjs/dalek-driver-sauce/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
