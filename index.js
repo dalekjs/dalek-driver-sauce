@@ -219,13 +219,6 @@ Sauce.prototype = {
     this.browserDefaults = this.browserData.driverDefaults;
     this.browserDefaults.status = this.browserData.getStatusDefaults(this.desiredCapabilities);
 
-    // check if a session is already active,
-    // if so, reuse that one
-    if(this.webdriverClient.hasSession()) {
-      deferred.resolve();
-      return deferred.promise;
-    }
-
     // start a browser session
     this._startBrowserSession(deferred, this.desiredCapabilities, this.browserDefaults);
 
